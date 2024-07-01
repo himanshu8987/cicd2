@@ -1,4 +1,4 @@
 - hosts: test
   tasks:
     - name: Run Docker container
-      shell: docker run -itd --name testcon -p 8080:8888 himanshu8987/sdlc
+      shell: docker run -itd --name testcon -p 8080:8888 himanshu8987/cicd-proj2
